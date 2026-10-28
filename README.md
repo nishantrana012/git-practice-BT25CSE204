@@ -22,6 +22,21 @@ own folder, developed on a feature branch and merged through a pull request.
 
 Every exercise folder has its source code, sample input (where needed) and `output.txt`.
 
+## Folders, topics and programs
+
+| Folder | Topic | Program | Sample input | Sample output |
+|---|---|---|---|---|
+| [`exercise-01`](exercise-01) | Git basics: add, commit, status, log; input validation | [`greet.sh`](exercise-01/greet.sh) | [`input.txt`](exercise-01/input.txt) | [`output.txt`](exercise-01/output.txt) |
+| [`exercise-02`](exercise-02) | Feature branch workflow | [`wordstats.sh`](exercise-02/wordstats.sh) | [`input.txt`](exercise-02/input.txt) | [`output.txt`](exercise-02/output.txt) |
+| [`exercise-03`](exercise-03) | Creating and resolving a merge conflict | [`show_greeting.sh`](exercise-03/show_greeting.sh) | [`settings.conf`](exercise-03/settings.conf) | [`output.txt`](exercise-03/output.txt) |
+| [`exercise-04`](exercise-04) | Undoing changes: stash, revert, restore, tag | [`sandbox_demo.sh`](exercise-04/sandbox_demo.sh) | none needed | [`output.txt`](exercise-04/output.txt) |
+
+**What each program does**
+- **`greet.sh`** reads a name from the input file and prints a greeting. It reports an error if the file is missing, the name is empty, or it contains characters other than letters and spaces.
+- **`wordstats.sh`** prints the line, word and character counts of a text file.
+- **`show_greeting.sh`** prints every `key -> value` pair from `settings.conf`. The settings file is the one that produced the merge conflict.
+- **`sandbox_demo.sh`** creates a temporary repository and demonstrates `git stash`, `git revert`, `git restore` and `git tag`.
+
 ## How to compile and run
 The programs are Bash scripts, so there is nothing to compile. You need a Linux shell
 (Linux, WSL or Git Bash) with Bash and Git installed.
