@@ -1,0 +1,3 @@
+Git is a distributed version control system.
+Branches let you work on features in isolation.
+Pull requests let others review the work before it is merged.
