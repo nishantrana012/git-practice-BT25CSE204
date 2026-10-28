@@ -1,0 +1,10 @@
+# Secrets and local config - never commit these
+.env
+*.pem
+*.key
+# Temporary / build artefacts
+*.log
+*.tmp
+*.exe
+*.out
+.DS_Store
