@@ -1,0 +1,18 @@
+--- git stash: park uncommitted work
+Saved working directory and index state WIP on main: 76e77d3 Add notes
+working tree after stash:
+(clean)
+after stash pop:
+line 1
+line 2
+--- git revert: undo a bad commit safely
+825f259 Revert "Add bad line"
+7969bb3 Add bad line
+ccc0ba8 Add line 2
+76e77d3 Add notes
+--- git restore: discard an unwanted edit
+notes.txt after restore:
+line 1
+line 2
+--- git tag: mark a release
+v1.0
